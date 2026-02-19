@@ -11,3 +11,8 @@ This project explores the Titanic dataset to identify key survival factors using
 ## Tech Stack
 * **Tools:** @Google Colab, @GitHub
 * **Libraries:** Pandas, Seaborn, Matplotlib
+## Deep Dive: Survival Probabilities
+I analyzed the intersection of Gender and Class to refine the risk profile.
+* **Observation:** Gender was a stronger predictor than wealth. 
+* **Data Evidence:** 1st Class females had a ~96% survival rate, while 3rd Class males had only ~13%.
+* **Conclusion:** For the insurance problem, 'Sex' must be weighted higher than 'Fare' in the final model.
